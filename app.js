@@ -5,7 +5,7 @@ const displayScore = document.querySelector('h2');
 let camera, renderer, scene;
 const originalBoxSize = 3;
 const level = 40;
-let score = 40;
+let score = 10000;
 
 let stack = [];
 const boxHeight = 1;  // height of each layer

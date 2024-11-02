@@ -4,7 +4,7 @@ const container = document.querySelector('.scene');
 const displayScore = document.querySelector('h2');
 let camera, renderer, scene;
 const originalBoxSize = 3;
-const level = 0;
+const level = 40;
 let score = 0;
 
 let stack = [];
